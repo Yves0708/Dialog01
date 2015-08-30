@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Just Dialog"
+        android:onClick="clickButton01"
+    />
+    <Button  
+        android:id="@+id/button02"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Yes, Maybe and No"
+        android:onClick="clickButton02"
+    />
+    <Button  
+        android:id="@+id/button03"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Items"
+        android:onClick="clickButton03"
+    />
+    <Button  
+        android:id="@+id/button04"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Single choice"
+        android:onClick="clickButton04"
+    />
+    <Button  
+        android:id="@+id/button05"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Multiple choice"
+        android:onClick="clickButton05"
+    />
+    <Button  
+        android:id="@+id/button06"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Custom layout"
+        android:onClick="clickButton06"
+    />    
+    
+</LinearLayout>
